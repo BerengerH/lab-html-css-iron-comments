@@ -12,7 +12,19 @@
 <body>
 
     <form id="form-container">
-        Name: Email: Comment: Receive email updates? Submit
+        <label class="block margin" for="name">Name:</label>
+        <input class="block input-area margin" type="text" id="name">
+
+        <label class="block" for="email">Email:</label>
+        <input class="block input-area margin" type="email" id="email">
+
+        <label class="block margin" for="comment">Comment:</label>
+        <textarea class="block input-area margin" id="comment" name="textarea" rows="10" cols="20"></textarea>
+
+        <label class="margin" for="update">Receive email updates?</label>
+        <input class="margin checkbox" type="checkbox" id="update">
+
+        <input class="submit-btn block margin" type="submit" value="Submit">
     </form>
 
 </body>
